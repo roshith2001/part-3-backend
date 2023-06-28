@@ -2,8 +2,8 @@ POST http://localhost:3001/api/persons
 Content-Type: application/json
 
 {
-    "name": "Roshith Krishna P",
-    "number": 9846084703
+    "name": "Roshith",
+    "number": "4-67504540"
 }
 
 ###
@@ -25,5 +25,5 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3001/api/persons/64986c245ebc09d4f08e90a
+DELETE http://localhost:3001/api/persons/649c28139eb89891ff117358
 
