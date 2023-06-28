@@ -2,10 +2,28 @@ POST http://localhost:3001/api/persons
 Content-Type: application/json
 
 {
-    "name": "Kutty Krishnan",
-    "number": "974-787-4703"
+    "name": "Roshith Krishna P",
+    "number": 9846084703
 }
 
 ###
 
 GET http://localhost:3001/api/persons
+
+###
+
+GET http://localhost:3001/api/persons/64986ba5ecf4605873d01226
+
+###
+
+PUT http://localhost:3001/api/persons/649bf72f2ca724a1aadbf66a
+Content-Type: application/json
+
+{
+    "number": 8840975678
+}
+
+###
+
+DELETE http://localhost:3001/api/persons/64986c245ebc09d4f08e90a
+
